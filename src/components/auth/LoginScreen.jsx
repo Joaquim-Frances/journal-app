@@ -11,9 +11,9 @@ export const LoginScreen = () => {
 
         <button type="submit" className="btn btn-primary btn-block" >Login</button>
 
-        <hr />
+       
         <div className="auth__social-networks">
-          <p>Login with social network</p>
+          <p>Login with social network:</p>
           <div className="google-btn">
             <div className="google-icon-wrapper">
               <img
@@ -27,7 +27,7 @@ export const LoginScreen = () => {
             </p>
           </div>
         </div>
-        <Link to="/auth/register">
+        <Link to="/auth/register" className="link mt-5">
             Create new account.
         </Link>
       </form>
