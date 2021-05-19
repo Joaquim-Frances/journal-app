@@ -6,12 +6,24 @@ export const LoginScreen = () => {
     <div>
       <h3 className="auth__title">Login</h3>
       <form action="">
-        <input className="auth__input" type="text" placeholder="email" name="email" autoComplete="off"/>
-        <input className="auth__input" type="password" placeholder="password" name="password" />
+        <input
+          className="auth__input"
+          type="text"
+          placeholder="email"
+          name="email"
+          autoComplete="off"
+        />
+        <input
+          className="auth__input"
+          type="password"
+          placeholder="password"
+          name="password"
+        />
 
-        <button type="submit" className="btn btn-primary btn-block" >Login</button>
+        <button type="submit" className="btn btn-primary btn-block">
+          Login
+        </button>
 
-       
         <div className="auth__social-networks">
           <p>Login with social network:</p>
           <div className="google-btn">
@@ -28,7 +40,7 @@ export const LoginScreen = () => {
           </div>
         </div>
         <Link to="/auth/register" className="link mt-5">
-            Create new account.
+          Create new account.
         </Link>
       </form>
     </div>
